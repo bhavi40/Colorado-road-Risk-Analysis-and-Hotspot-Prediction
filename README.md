@@ -25,4 +25,7 @@ python app.py
 
 - Access the web application in your browser at http://127.0.0.1:5000/.
 
+  ## Note
+  - The app currently experiences some delay after clicking the 'Predict' button. I plan to optimize this in the future.
+
 
