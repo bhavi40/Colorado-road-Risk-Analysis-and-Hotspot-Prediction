@@ -21,6 +21,8 @@ pip install -r requirements.txt
 
 python app.py
 
+exit
+
 - Access the web application in your browser at http://127.0.0.1:5000/.
 
 
