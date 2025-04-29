@@ -17,10 +17,10 @@ This project aims to predict road accident severity and identify hotspots in Col
 - Install the necessary dependencies from the `requirements.txt` file:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 python app.py
 
-Access the web application in your browser at http://127.0.0.1:5000/.
+- Access the web application in your browser at http://127.0.0.1:5000/.
 
 
