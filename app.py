@@ -89,7 +89,7 @@ def get_place_name(lat, lon):
 
 # Simplified function to get route coordinates (fallback to straight line if API fails)
 def get_route_coordinates(start_lat, start_lon, end_lat, end_lon):
-    api_key = "5b3ce3597851110001cf6248933ad121d64d415f9c9a132f93c980aa"  # Replace with your OpenRouteService API key
+    api_key = ""  # Replace with your OpenRouteService API key
     url = f"https://api.openrouteservice.org/v2/directions/driving-car?api_key={api_key}&start={start_lon},{start_lat}&end={end_lon},{end_lat}"
     try:
         response = requests.get(url)
@@ -142,7 +142,7 @@ def sample_route_points(coordinates):
 
 # Function to get weather data using OpenWeatherMap API (with wind speed)
 def get_weather(latitude, longitude):
-    api_key = "eaa8a47accda83fbe8c11087f13f15e7"
+    api_key = ""
     url = f"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={api_key}"
     try:
         response = requests.get(url)
