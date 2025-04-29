@@ -19,13 +19,8 @@ This project aims to predict road accident severity and identify hotspots in Col
 ```bash
 pip install -r requirements.txt```
 
-```bash
-python app.py```
+python app.py
 
 Access the web application in your browser at http://127.0.0.1:5000/.
 
 
-## Model
-The best_model_random_forest.pkl contains the trained Random Forest model used for predicting crash severity.
-
-The hotspot_clusters.pkl file contains the clusters of accident hotspots based on the analysis of traffic and weather data.
